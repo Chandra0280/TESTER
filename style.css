@@ -29,7 +29,7 @@ nav ul {
     gap: 50px;  
 }
 
-nav ul{
+nav ul a{
     text-decoration: none;
 }
 
@@ -57,13 +57,11 @@ nav ul{
 #hero-greeting p{
     margin-bottom: 15px;
 }
-
-
-#hero-button{
-    border-radius: 10px;
+#hero-button button{
     padding: 10px 20px;
+    border-radius: 20px;
 }
 
-#hero-button button :hover{
+#hero-button button:hover{
     background-color: green;
 }
